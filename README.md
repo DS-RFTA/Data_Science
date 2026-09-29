@@ -12,4 +12,13 @@ Essas informações podem ser usadas para orientar as decisões de tratamento e 
 
 # FUNDAMENTOS DA ANÁLISE DE DADOS CONCEITOS ESTATÍSTICOS BÁSICOS
 
-Estatística Descritiva São medidas que resumem características importantes dos dados, como a média, mediana, moda, amplitude e desvio padrão. As medidas estatísticas são fundamentais para entender e analisar dados de maneira objetiva e precisa. Algumas das medidas mais comuns incluem: Média: é a soma de todos os valores dividida pelo número total de elementos. É uma medida de tendência central que pode ser influenciada por valores extremos. Mediana: é o valor que separa a metade inferior e superior de um conjunto de dados ordenados. É uma medida de tendência central que não é afetada por valores extremos. Moda: é o valor que ocorre com mais frequência em um conjunto de dados. É uma medida de tendência central que pode ser útil para identificar valores atípicos ou discrepantes. Amplitude: é a diferença entre o maior e o menor valor em um conjunto de dados. É uma medida de dispersão que indica a variação total dos dados. Desvio padrão: é uma medida de dispersão que indica o quanto os dados estão afastados da média. Valores mais altos indicam maior variabilidade nos dados.
+Estatística Descritiva São medidas que resumem características importantes dos dados, como a média, mediana, moda, amplitude e desvio padrão.
+As medidas estatísticas são fundamentais para entender e analisar dados de maneira objetiva e precisa. Algumas das medidas mais comuns incluem:
+Média: é a soma de todos os valores dividida pelo número total de elementos. É uma medida de tendência central que pode ser influenciada por valores extremos. 
+Mediana: é o valor que separa a metade inferior e superior de um conjunto de dados ordenados. É uma medida de tendência central que não é afetada por valores extremos.
+Moda: é o valor que ocorre com mais frequência em um conjunto de dados. É uma medida de tendência central que pode ser útil para identificar valores atípicos ou discrepantes. 
+Amplitude: é a diferença entre o maior e o menor valor em um conjunto de dados. É uma medida de dispersão que indica a variação total dos dados. 
+Desvio padrão: é uma medida de dispersão que indica o quanto os dados estão afastados da média. Valores mais altos indicam maior variabilidade nos dados.
+
+
+
