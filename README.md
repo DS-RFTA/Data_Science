@@ -96,12 +96,30 @@ for comment in feedback:
     print(f'Sentiment: {sentiment}')
 
 
-
-
-
-
 ````
 
 
 
 # Visualização de Dados
+
+````
+
+import matplotlib.pyplot as plt
+
+# Suponha que 'dias' seja uma lista de dias e 'admissões'
+# é uma lista do número de admissões[cite: 5]
+days = df['day_number']
+admissions = df['admissions']
+
+# Crie um gráfico de linhas de admissões ao longo do tempo
+plt.plot(days, admissions)
+plt.title('Admissões hospitalares ao longo do tempo')
+plt.xlabel('Dia')
+plt.ylabel('Número de admissões')
+plt.show()
+
+
+
+````
+
+# Aprendizado de Máquina em Saúde
