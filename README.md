@@ -123,3 +123,29 @@ plt.show()
 ````
 
 # Aprendizado de Máquina em Saúde
+
+
+````
+# Exemplo de código Python usando a biblioteca scikit-learn
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+
+# Suponha que 'df' seja um DataFrame com dados do paciente,
+# 'outcome' é a variável de destino
+X = df.drop('outcome', axis=1)
+y = df['outcome'][cite: 6]
+
+# Divida os dados em conjuntos de treinamento e teste
+X_train, X_test, y_train, y_test = \
+    train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Crie um classificador de floresta aleatório e ajuste-o
+# aos dados de treinamento
+clf = RandomForestClassifier(n_estimators=100)
+clf.fit(X_train, y_train)
+
+# Use o classificador treinado para fazer previsões
+# nos dados de teste
+y_pred = clf.predict(X_test)
+
+````
