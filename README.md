@@ -76,3 +76,32 @@ prediction = model.predict(new_patient)
 print(f'Predicted readmission: {prediction}')
 
 ````
+
+# Processamento de Linguagem Natural
+
+````
+
+# Exemplo de código Python usando a biblioteca
+# NLTKfrom nltk.sentiment import SentimentIntensityAnalyzer
+
+# Suponha que 'feedback' seja uma lista de comentários
+# de feedback do paciente
+feedback = ['...']
+
+# Use a análise de sentimento para entender o
+# feedback do paciente
+sia = SentimentIntensityAnalyzer()
+for comment in feedback:
+    sentiment = sia.polarity_scores(comment)
+    print(f'Sentiment: {sentiment}')
+
+
+
+
+
+
+````
+
+
+
+# Visualização de Dados
