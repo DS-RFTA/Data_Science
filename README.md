@@ -54,3 +54,25 @@ predictions = model.predict(next_week)
 print(f'Predicted admissions for the next week: {predictions}')
 
 ````
+
+# Aprendizado de Máquina
+
+
+````
+
+# Exemplo de código Python usando a biblioteca scikit-learn[cite: 3]
+from sklearn.ensemble import RandomForestClassifier
+
+X = df.drop('readmission', axis=1)
+y = df['readmission']
+
+# Crie um algoritmo de random forest e ajuste-o aos dados
+model = RandomForestClassifier()
+model.fit(X, y)
+
+# Prever readmissão para um novo paciente
+new_patient = [[...]]  # Novos dados do paciente
+prediction = model.predict(new_patient)
+print(f'Predicted readmission: {prediction}')
+
+````
