@@ -1,6 +1,6 @@
 # Data_Science
 
-# Importância da Análise de Dados na Saúde
+#  Análise de Dados na Saúde
 
 Ao analisar os dados dos pacientes, os prestadores de cuidados de saúde podem identificar os tratamentos mais eficazes e prever problemas de saúde potenciais antes que se tornem graves.
 Essa análise de dados permite que os prestadores de cuidados de saúde tomem decisões mais informadas e baseadas em evidências.
