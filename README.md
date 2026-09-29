@@ -169,12 +169,3 @@ print(tokens)
 ````
 
 
-# Análise Preditiva e Suporte à Decisão
-
-````
-
-
-
-
-
-````
