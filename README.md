@@ -9,3 +9,5 @@ os profissionais de saúde podem identificar padrões e tendências que podem au
 Ao identificar os tratamentos mais eficazes, os prestadores de cuidados de saúde podem melhorar os resultados dos pacientes e otimizar os recursos disponíveis. Por exemplo, ao analisar dados de saúde em grande escala, 
 como registros eletrônicos de saúde de uma população, os analistas de dados podem identificar quais tratamentos tiveram maior taxa de sucesso em determinadas condições médicas. 
 Essas informações podem ser usadas para orientar as decisões de tratamento e melhorar os resultados dos pacientes.
+
+# FUNDAMENTOS DA ANÁLISE DE DADOS CONCEITOS ESTATÍSTICOS BÁSICOS
