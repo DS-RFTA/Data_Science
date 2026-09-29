@@ -32,3 +32,25 @@ average_cost = df['procedure_cost'].mean()
 print(f'Average cost of procedures: {average_cost}')
 
 ````
+
+# Análise Preditiva
+
+````
+
+# Exemplo de código Python usando a biblioteca scikit-learn
+from sklearn.linear_model import LinearRegression
+
+# Suponha que 'X' é o número de dias e 'y' é o número de admissões
+X = df['day_number'].values.reshape(-1, 1)
+y = df['admissions']
+
+# Crie um modelo de regressão linear e ajuste-o aos dados
+model = LinearRegression()
+model.fit(X, y)
+
+# Prever admissões para a próxima semana
+next_week = [[i] for i in range(max(X)+1, max(X)+8)]
+predictions = model.predict(next_week)
+print(f'Predicted admissions for the next week: {predictions}')
+
+````
