@@ -31,6 +31,7 @@ print(f'Most common diagnoses: {common_diagnoses}')
 average_cost = df['procedure_cost'].mean()
 print(f'Average cost of procedures: {average_cost}')
 
+
 ````
 
 # Análise Preditiva
@@ -150,6 +151,7 @@ y_pred = clf.predict(X_test)
 
 ````
 
+````
 # Exemplo de código Python usando a biblioteca NLTK
 import nltk
 from nltk.tokenize import word_tokenize
@@ -163,8 +165,6 @@ tokens = word_tokenize(text)
 
 # Imprime os tokens
 print(tokens)
-
-
 
 ````
 
