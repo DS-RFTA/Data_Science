@@ -149,3 +149,32 @@ clf.fit(X_train, y_train)
 y_pred = clf.predict(X_test)
 
 ````
+
+# Exemplo de código Python usando a biblioteca NLTK
+import nltk
+from nltk.tokenize import word_tokenize
+
+# Suponha que 'texto' seja uma string contendo as
+# anotações de um médico
+text = "O paciente apresentou febre e tosse persistente."
+
+# Tokenize o texto (divida-o em palavras individuais)
+tokens = word_tokenize(text)
+
+# Imprime os tokens
+print(tokens)
+
+
+
+````
+
+
+# Análise Preditiva e Suporte à Decisão
+
+````
+
+
+
+
+
+````
